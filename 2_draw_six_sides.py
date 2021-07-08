@@ -4,7 +4,7 @@ def init__():
     penup()
     seth(0)
     pensize(5)
-    pencolor('black')
+    pencolor("black")
     pendown()
 def draw_side(distance):
     fd(distance)
