@@ -1,0 +1,15 @@
+from turtle import *
+def init__():
+    setup(800,800,200,200)
+    penup()
+    seth(0)
+    pensize(1)
+    pencolor('black')
+    pendown()
+def draw(ditance):
+    fd(ditance)
+    left(80)
+init__()
+for i in range(9):
+    draw(100)
+done()
